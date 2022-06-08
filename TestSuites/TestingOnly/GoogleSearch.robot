@@ -4,11 +4,11 @@ Library    Browser
 Resource   ../../Resources/Keywords/Keyword.robot
    
 *** Test Cases ***
-Search_Google_1_1_001 Search robot on google and verify
-    Open Google             chromium
-    input in search box     robot
-    Click Search Button
-    Verify all    
+# Search_Google_1_1_001 Search robot on google and verify
+#     Open Google             chromium
+#     input in search box     robot
+#     Click Search Button
+#     Verify all    
     
 # Google_Search_1_1_002 Search Blackpink and Click third topic then verify
 #     Open Google             firefox
