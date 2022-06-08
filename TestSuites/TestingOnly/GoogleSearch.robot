@@ -2,18 +2,16 @@
 Documentation     An example resource file
 Library    Browser
 Resource   ../../Resources/Keywords/Keyword.robot
-
-*** Variables ***
    
 *** Test Cases ***
-# Search_Google_1_1_001 Search robot on google and verify
-#     Open Google             chromium
-#     input in search box     robot
-#     Click Search Button
-#     Verify all    
+Search_Google_1_1_001 Search robot on google and verify
+    Open Google             chromium
+    input in search box     robot
+    Click Search Button
+    Verify all    
     
 # Google_Search_1_1_002 Search Blackpink and Click third topic then verify
-#     Open Google             chromium
+#     Open Google             firefox
 #     input in search box     blackpink
 #     Click Search
 #     ${googleUrl1}           Get Url
