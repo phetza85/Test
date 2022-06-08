@@ -48,7 +48,9 @@ Verify Setting
 Verify Google App 
     Wait For Elements State     ${btn_verify_google_app}    visible
 Verify Profile
-    Wait For Elements State     ${btn_verify_profile}    visible
+#    Wait For Elements State     ${btn_verify_profile}    visible
+
+
 
 Verify Google Search
     
