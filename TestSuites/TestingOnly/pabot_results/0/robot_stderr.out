@@ -1,0 +1,2 @@
+[ WARN ] Open Browser is for quick experimentation and debugging only. Use New Page for production.
+[ ERROR ] Calling method 'end_keyword' of listener 'RobotStackTracer' failed: UnicodeEncodeError: 'charmap' codec can't encode characters in position 256-261: character maps to <undefined>

@@ -1,0 +1,10 @@
+==============================================================================
+GoogleSearch :: An example resource file                                      
+==============================================================================
+Search ?????? and Monosodium glutamate with 2 language for 1 testcase | FAIL |
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 17-29: character maps to <undefined>
+------------------------------------------------------------------------------
+GoogleSearch :: An example resource file                              | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Arcadia30\Desktop\Work\TMP Travel Management Platform\TestSuites\TestingOnly\pabot_results\0\output.xml

@@ -1,0 +1,80 @@
+{"level":30,"time":"2022-06-08T08:34:48.572Z","pid":3208,"hostname":"MSI","msg":"Listening on 63233"}
+{"level":30,"time":"2022-06-08T08:34:48.619Z","pid":3208,"hostname":"MSI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:48.620Z","pid":3208,"hostname":"MSI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:48.624Z","pid":3208,"hostname":"MSI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:48.625Z","pid":3208,"hostname":"MSI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:48.631Z","pid":3208,"hostname":"MSI","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-06-08T08:34:49.067Z","pid":3208,"hostname":"MSI","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-06-08T08:34:49.072Z","pid":3208,"hostname":"MSI","msg":"Start of node method newContext"}
+{"level":30,"time":"2022-06-08T08:34:49.072Z","pid":3208,"hostname":"MSI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-06-08T08:34:49.072Z","pid":3208,"hostname":"MSI","msg":"Trace file: "}
+{"level":30,"time":"2022-06-08T08:34:49.089Z","pid":3208,"hostname":"MSI","msg":"Changed active context"}
+{"level":30,"time":"2022-06-08T08:34:49.089Z","pid":3208,"hostname":"MSI","msg":"End of node method newContext"}
+{"level":30,"time":"2022-06-08T08:34:49.092Z","pid":3208,"hostname":"MSI","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-06-08T08:34:49.092Z","pid":3208,"hostname":"MSI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-06-08T08:34:49.297Z","pid":3208,"hostname":"MSI","msg":"Video path: undefined"}
+{"level":30,"time":"2022-06-08T08:34:49.298Z","pid":3208,"hostname":"MSI","msg":"Changed active page"}
+{"level":30,"time":"2022-06-08T08:34:50.292Z","pid":3208,"hostname":"MSI","msg":"End of node method newPage"}
+{"level":30,"time":"2022-06-08T08:34:50.299Z","pid":3208,"hostname":"MSI","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-06-08T08:34:50.300Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=//input[@class=\"gLFyf gsfi\"] in page."}
+{"level":30,"time":"2022-06-08T08:34:50.392Z","pid":3208,"hostname":"MSI","msg":"End of node method typeText"}
+{"level":30,"time":"2022-06-08T08:34:50.395Z","pid":3208,"hostname":"MSI","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-08T08:34:50.396Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=//*[name()=\"svg\" and @class=\"gb_Te\"] in page."}
+{"level":30,"time":"2022-06-08T08:34:50.513Z","pid":3208,"hostname":"MSI","msg":"End of node method click"}
+{"level":30,"time":"2022-06-08T08:34:50.516Z","pid":3208,"hostname":"MSI","msg":"Start of node method click"}
+{"level":30,"time":"2022-06-08T08:34:50.516Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=//div[@class='FPdoLc lJ9FBc']//input[@name='btnK'] in page."}
+{"level":30,"time":"2022-06-08T08:34:50.797Z","pid":3208,"hostname":"MSI","msg":"End of node method click"}
+{"level":30,"time":"2022-06-08T08:34:50.801Z","pid":3208,"hostname":"MSI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:50.802Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=//span[@class='z1asCe MZy1Rb']//*[name()='svg'] in page."}
+{"level":30,"time":"2022-06-08T08:34:50.826Z","pid":3208,"hostname":"MSI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:50.829Z","pid":3208,"hostname":"MSI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:50.829Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=//*[name()='path' and contains(@d,'M13.85 22.')] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.551Z","pid":3208,"hostname":"MSI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.554Z","pid":3208,"hostname":"MSI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.555Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=//*[name()=\"svg\" and @class=\"gb_Te\"] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.611Z","pid":3208,"hostname":"MSI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.614Z","pid":3208,"hostname":"MSI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.614Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"gb_Rc\"] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.650Z","pid":3208,"hostname":"MSI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.653Z","pid":3208,"hostname":"MSI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.653Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[1] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.671Z","pid":3208,"hostname":"MSI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.675Z","pid":3208,"hostname":"MSI","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-08T08:34:51.675Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[1] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.782Z","pid":3208,"hostname":"MSI","msg":"Retrieved text for element xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[1] containing ความช่วยเหลือ"}
+{"level":30,"time":"2022-06-08T08:34:51.782Z","pid":3208,"hostname":"MSI","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-08T08:34:51.785Z","pid":3208,"hostname":"MSI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.785Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[2] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.790Z","pid":3208,"hostname":"MSI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.794Z","pid":3208,"hostname":"MSI","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-08T08:34:51.794Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[2] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.828Z","pid":3208,"hostname":"MSI","msg":"Retrieved text for element xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[2] containing ความเป็นส่วนตัว"}
+{"level":30,"time":"2022-06-08T08:34:51.828Z","pid":3208,"hostname":"MSI","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-08T08:34:51.830Z","pid":3208,"hostname":"MSI","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.831Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[3] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.837Z","pid":3208,"hostname":"MSI","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-06-08T08:34:51.839Z","pid":3208,"hostname":"MSI","msg":"Start of node method getText"}
+{"level":30,"time":"2022-06-08T08:34:51.839Z","pid":3208,"hostname":"MSI","msg":"Strict mode is enabled, find Locator with xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[3] in page."}
+{"level":30,"time":"2022-06-08T08:34:51.850Z","pid":3208,"hostname":"MSI","msg":"Retrieved text for element xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[3] containing ข้อกำหนด"}
+{"level":30,"time":"2022-06-08T08:34:51.851Z","pid":3208,"hostname":"MSI","msg":"End of node method getText"}
+{"level":30,"time":"2022-06-08T08:34:51.854Z","pid":3208,"hostname":"MSI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:51.856Z","pid":3208,"hostname":"MSI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:51.858Z","pid":3208,"hostname":"MSI","msg":"Changed active context"}
+{"level":30,"time":"2022-06-08T08:34:51.859Z","pid":3208,"hostname":"MSI","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-08T08:34:51.859Z","pid":3208,"hostname":"MSI","msg":"Changed active page"}
+{"level":30,"time":"2022-06-08T08:34:51.864Z","pid":3208,"hostname":"MSI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:51.867Z","pid":3208,"hostname":"MSI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:51.869Z","pid":3208,"hostname":"MSI","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-08T08:34:51.869Z","pid":3208,"hostname":"MSI","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-08T08:34:51.871Z","pid":3208,"hostname":"MSI","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-06-08T08:34:51.871Z","pid":3208,"hostname":"MSI","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-06-08T08:34:51.874Z","pid":3208,"hostname":"MSI","msg":"Changed active context"}
+{"level":30,"time":"2022-06-08T08:34:51.874Z","pid":3208,"hostname":"MSI","msg":"Changing current active page"}
+{"level":30,"time":"2022-06-08T08:34:51.874Z","pid":3208,"hostname":"MSI","msg":"Changed active page"}
+{"level":30,"time":"2022-06-08T08:34:51.876Z","pid":3208,"hostname":"MSI","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-06-08T08:34:51.887Z","pid":3208,"hostname":"MSI","msg":"Removed page=0e822c4c-3e67-4e5b-82db-611228b3b14c from context=474932b8-7e6d-47eb-9e60-71e9e6104aa2 page stack"}
+{"level":30,"time":"2022-06-08T08:34:51.928Z","pid":3208,"hostname":"MSI","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-06-08T08:34:51.935Z","pid":3208,"hostname":"MSI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:51.935Z","pid":3208,"hostname":"MSI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-08T08:34:51.982Z","pid":3208,"hostname":"MSI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-06-08T08:34:52.134Z","pid":3208,"hostname":"MSI","msg":"End of node method closeAllBrowsers"}

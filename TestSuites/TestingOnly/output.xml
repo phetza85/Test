@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220608 15:34:47.879" rpa="false" schemaversion="3">
+<suite id="s1" name="GoogleSearch" source="C:\Users\Arcadia30\Desktop\Work\TMP Travel Management Platform\TestSuites\TestingOnly\GoogleSearch.robot">
+<test id="s1-t1" name="Search ผงชูรส and Monosodium glutamate with 2 language for 1 testcase" line="58">
+<kw name="Open Google" library="Keyword">
+<arg>chromium</arg>
+<kw name="Open Browser" library="Browser">
+<arg>https://www.google.com/</arg>
+<arg>${browser}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.
+Use `New Page` directly instead of `Open Browser` for production and automated execution.
+See `Browser, Context and Page` for more information about Browser and related concepts.</doc>
+<msg timestamp="20220608 15:34:48.628" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg timestamp="20220608 15:34:48.629" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\Users\\Arcadia30\\Desktop\\Work\\TMP Travel Management Platform\\TestSuites\\TestingOnly\\browser\\traces\\fb11e474-4627-4fc2-9cb7-fb248620ff9e"}</msg>
+<msg timestamp="20220608 15:34:49.069" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\Users\\Arcadia30\\Desktop\\Work\\TMP Travel Management Platform\\TestSuites\\TestingOnly\\browser\\traces\\fb11e474-4627-4fc2-9cb7-fb248620ff9e"}</msg>
+<msg timestamp="20220608 15:34:49.069" level="INFO">{"acceptDownloads": true, "ignoreHTTPSErrors": false, "bypassCSP": true, "deviceScaleFactor": 1.0, "isMobile": false, "hasTouch": false, "javaScriptEnabled": true, "offline": false, "hideRfBrowser": false, "reducedMotion": "no-preference", "forcedColors": "none"}</msg>
+<msg timestamp="20220608 15:34:49.091" level="INFO">Successfully created context. </msg>
+<msg timestamp="20220608 15:34:49.091" level="INFO">{'acceptDownloads': True, 'ignoreHTTPSErrors': False, 'bypassCSP': True, 'deviceScaleFactor': 1, 'isMobile': False, 'hasTouch': False, 'javaScriptEnabled': True, 'offline': False, 'hideRfBrowser': False, 'reducedMotion': 'no-preference', 'forcedColors': 'none'}</msg>
+<msg timestamp="20220608 15:34:50.295" level="INFO">Successfully initialized new page object and opened url: https://www.google.com/</msg>
+<status status="PASS" starttime="20220608 15:34:48.628" endtime="20220608 15:34:50.296"/>
+</kw>
+<status status="PASS" starttime="20220608 15:34:48.627" endtime="20220608 15:34:50.296"/>
+</kw>
+<if>
+<branch type="IF" condition="'${language}' == 'en'">
+<kw name="Click Change To English Language" library="Keyword">
+<status status="NOT RUN" starttime="20220608 15:34:50.297" endtime="20220608 15:34:50.297"/>
+</kw>
+<status status="NOT RUN" starttime="20220608 15:34:50.297" endtime="20220608 15:34:50.297"/>
+</branch>
+<status status="PASS" starttime="20220608 15:34:50.296" endtime="20220608 15:34:50.297"/>
+</if>
+<kw name="Input In Search Box" library="Keyword">
+<arg>${MSG}</arg>
+<kw name="Type Text" library="Browser">
+<arg>${txt_google_search}</arg>
+<arg>${typing}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20220608 15:34:50.298" level="INFO">Types the text 'ผงชูรส' in the given field.</msg>
+<status status="PASS" starttime="20220608 15:34:50.298" endtime="20220608 15:34:50.393"/>
+</kw>
+<status status="PASS" starttime="20220608 15:34:50.298" endtime="20220608 15:34:50.393"/>
+</kw>
+<kw name="Click Search" library="Keyword">
+<kw name="Click" library="Browser">
+<arg>xpath=//*[name()="svg" and @class="gb_Te"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20220608 15:34:50.394" endtime="20220608 15:34:50.515"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${btn_google_search}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20220608 15:34:50.515" endtime="20220608 15:34:50.799"/>
+</kw>
+<status status="PASS" starttime="20220608 15:34:50.394" endtime="20220608 15:34:50.799"/>
+</kw>
+<kw name="Verify Google Search" library="Keyword">
+<kw name="Wait For Elements State" library="Browser">
+<arg>${btn_verify_search}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220608 15:34:50.828" level="INFO">Waited for Element with selector xpath=//span[@class='z1asCe MZy1Rb']//*[name()='svg'] at state visible</msg>
+<status status="PASS" starttime="20220608 15:34:50.800" endtime="20220608 15:34:50.828"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${btn_verify_setting}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220608 15:34:51.552" level="INFO">Waited for Element with selector xpath=//*[name()='path' and contains(@d,'M13.85 22.')] at state visible</msg>
+<status status="PASS" starttime="20220608 15:34:50.828" endtime="20220608 15:34:51.553"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${btn_verify_google_app}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220608 15:34:51.612" level="INFO">Waited for Element with selector xpath=//*[name()="svg" and @class="gb_Te"] at state visible</msg>
+<status status="PASS" starttime="20220608 15:34:51.553" endtime="20220608 15:34:51.613"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${btn_verify_profile}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220608 15:34:51.651" level="INFO">Waited for Element with selector xpath=//div[@class="gb_Rc"] at state visible</msg>
+<status status="PASS" starttime="20220608 15:34:51.613" endtime="20220608 15:34:51.651"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${llb_help}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220608 15:34:51.674" level="INFO">Waited for Element with selector xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[1] at state visible</msg>
+<status status="PASS" starttime="20220608 15:34:51.652" endtime="20220608 15:34:51.674"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<var>${get_help_th}</var>
+<arg>${llb_help}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220608 15:34:51.784" level="INFO">${get_help_th} = ความช่วยเหลือ</msg>
+<status status="PASS" starttime="20220608 15:34:51.674" endtime="20220608 15:34:51.784"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${get_help_th}</arg>
+<arg>${help}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20220608 15:34:51.784" endtime="20220608 15:34:51.784"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${llb_privacy}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220608 15:34:51.792" level="INFO">Waited for Element with selector xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[2] at state visible</msg>
+<status status="PASS" starttime="20220608 15:34:51.784" endtime="20220608 15:34:51.793"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<var>${get_privacy_th}</var>
+<arg>${llb_privacy}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220608 15:34:51.829" level="INFO">${get_privacy_th} = ความเป็นส่วนตัว</msg>
+<status status="PASS" starttime="20220608 15:34:51.793" endtime="20220608 15:34:51.829"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${get_privacy_th}</arg>
+<arg>${privacy}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20220608 15:34:51.830" endtime="20220608 15:34:51.830"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${llb_terms}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20220608 15:34:51.837" level="INFO">Waited for Element with selector xpath=(//a[@class='Fx4vi wHYlTd ZYHQ7e'])[3] at state visible</msg>
+<status status="PASS" starttime="20220608 15:34:51.830" endtime="20220608 15:34:51.837"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<var>${get_term_th}</var>
+<arg>${llb_terms}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20220608 15:34:51.851" level="INFO">${get_term_th} = ข้อกำหนด</msg>
+<status status="PASS" starttime="20220608 15:34:51.838" endtime="20220608 15:34:51.851"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${get_term_th}</arg>
+<arg>${terms}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20220608 15:34:51.852" endtime="20220608 15:34:51.852"/>
+</kw>
+<status status="PASS" starttime="20220608 15:34:50.800" endtime="20220608 15:34:51.852"/>
+</kw>
+<tag>Sugar</tag>
+<status status="PASS" starttime="20220608 15:34:48.622" endtime="20220608 15:34:51.853"/>
+</test>
+<doc>An example resource file</doc>
+<status status="PASS" starttime="20220608 15:34:47.881" endtime="20220608 15:34:51.933"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Sugar</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="GoogleSearch">GoogleSearch</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220608 15:34:48.628" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

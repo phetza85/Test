@@ -1,0 +1,2 @@
+*** Variables ***
+${a}       Get Url
